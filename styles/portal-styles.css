@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Poppins&display=swap');
+
+
+
+body {
+    display: grid;
+    grid-template-columns: auto auto auto
+}
+
+
+
+.content-wrapper {
+    grid-column: 2/3;
+}
+
+
+
+header {
+    background-color: #C12428;
+    border-radius: .75em;
+}
+
+
+
+h1 {
+    text-shadow: -.1em -.1em .5em #413f3f;
+}
+
+
+
+.header-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+
+
+.profile-picture {
+    grid-column: 1/2;
+    margin-left: 3em;
+    padding: 1em;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.name {
+    grid-column: 2/4;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 2em;
+    font-family: 'Cabin Sketch', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
+.profile-image {
+    border-radius: .75em;
+    box-shadow: -.1em -.1em 1em #413f3f;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+
+.portal-header-text {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid #C12428;
+}
+
+
+
+.lesson-list {
+    font-family: monospace;
+    font-size: 1.5em;
+}
+
+.main-content {
+    align-self: center;
+}
+
+p {
+    border-top: 1px solid #C12428;
+}
+
+footer {
+    background-color: #C12428;
+    border-radius: .75em;
+    display: block;
+    justify-content: center;
+    text-align: center; 
+    padding: 15px;
+    border-radius: 5px;
+    margin: auto;
+    align-items: center;
+}
+
+
+
+#copyright {
+    color: white;
+}
+
+
+
+#copyright-name {
+    color: white;
+}
+
+
+
+#update-text {
+    color: yellow;
+}
+
+
+#last-update {
+    color: yellow;
+}
